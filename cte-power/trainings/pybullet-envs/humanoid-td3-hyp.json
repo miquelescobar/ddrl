@@ -1,0 +1,37 @@
+{
+    "env": "HumanoidBulletEnv-v0",
+    "run": "TD3",
+    "stop": {
+        "episode_reward_mean": 2200,
+        "timesteps_total" : 5e5
+    },
+    "config": {
+        "framework": "tf",
+        "horizon": {
+            "grid_search" : [100, 200, 500, 1000, 2000]
+        },
+        
+        "actor_hiddens": {
+            "grid_search": [[400,300], [512,512]]
+        },
+
+        "critic_hiddens": {
+            "grid_search": [[400,300], [512,512]]
+        },
+
+        "tau": {
+            "grid_search": [0.001, 0.0025, 0.005]
+        },
+
+        "target_noise": {"grid_search": [0.2, 0.4]},
+        "target_noise_clip": {"grid_search": [0.25, 0.5]},
+
+        "train_batch_size": 256,
+        "timesteps_per_iteration": 1000,
+        "learning_starts": 10000,
+
+        "num_workers": 16,
+        "num_gpus_per_worker": 0,
+        "num_gpus": 1
+    }
+}
