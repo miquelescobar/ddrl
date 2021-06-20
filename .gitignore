@@ -138,4 +138,4 @@ dmypy.json
 cython_debug/
 
 # Others
-/results/humanoid-ignore/
+/results/humanoid-ignore/*
