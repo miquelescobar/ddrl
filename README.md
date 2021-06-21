@@ -3,7 +3,7 @@
 <p float="left">
 <img src="https://www.upc.edu/comunicacio/ca/identitat/descarrega-arxius-grafics/fitxers-marca-principal/upc-positiu-p3005.png" height="75">
 <img src="https://www.fib.upc.edu/sites/fib/files/images/logo-fib-lletres.png" height="85">
-<img src="https://dse.upc.edu/ca/logosfooter-ca/fme/@@images/image" height="75">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="https://dse.upc.edu/ca/logosfooter-ca/fme/@@images/image" height="75">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <img src="http://forumtelecos.upc.edu/wp-content/uploads/2019/03/logo_telecos-4-300x167.png" height="70">
 </p>
 
