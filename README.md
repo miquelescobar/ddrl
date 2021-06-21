@@ -1,12 +1,22 @@
 <h1 style="background-color:red;">README UNDER DEVELOPMENT</h1>
 
+<img src="https://www.upc.edu/comunicacio/ca/identitat/descarrega-arxius-grafics/fitxers-marca-principal/upc-positiu-p3005.png" height="75">
+<img src="https://www.fib.upc.edu/sites/fib/files/images/logo-fib-lletres.png" height="85">
+<img src="https://dse.upc.edu/ca/logosfooter-ca/fme/@@images/image" height="75">
+<img src="http://forumtelecos.upc.edu/wp-content/uploads/2019/03/logo_telecos-4-300x167.png" height="70">
+
+
+
+
 # Distributed Deep Reinforcement Learning in an HPC system and deployment to the Cloud
 <i>Bachelor's degree in Data Science and Engineering. Final Thesis</i>
 <br>
 <i>Defended on July 1, 2021</i>
 <br>
 <i>Miquel Escobar Castells, @miquelescobar, miquel.escobar@estudiantat.upc.edu</i>
-<br><br>
+<br>
+
+<br>
 
 ## Table of Contents
 1. [Abstract](#abstract)
