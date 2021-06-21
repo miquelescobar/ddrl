@@ -78,7 +78,7 @@ The directory structure of this reposirory is shown below. In each of the subsec
 ```
 
 ### CTE-POWER
-In the ```./cte-power/``` directory one can find all files and scripts required to execute the trainings and metrics evaluations in the [https://www.bsc.es/user-support/power.php](CTE-POWER) cluster. The scripts can be executed as-is, assuming that the compatibilities and the required dependencies are maintaned by the system operators at CTE, since the loading of environment are defined in the [#jobs](jobs) section scripts.
+In the ```./cte-power/``` directory one can find all files and scripts required to execute the trainings and metrics evaluations in the [https://www.bsc.es/user-support/power.php](CTE-POWER) cluster. The scripts can be executed as-is, assuming that the compatibilities and the required dependencies are maintaned by the system operators at CTE, since the loading of environment are defined in the [jobs](#jobs) section scripts.
 In order to understand the implementation, below there is a more detailed description of each one of the modules.
 
 In this repository one can find an example for executing a complete training pipeline of [PyBullet](https://pybullet.org/) environments
