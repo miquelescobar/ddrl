@@ -25,6 +25,7 @@
 <br> 2.1. [CTE-POWER](#cte-power) 
 <br> 2.1. [AWS SageMaker](#aws-sagemaker) 
 <br> 2.1. [Figures](#figures) 
+3. [Contact](#contact)
 
 <br> 
 
