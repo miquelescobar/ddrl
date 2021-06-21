@@ -4,7 +4,7 @@ FROM 462105765813.dkr.ecr.${AWS_REGION}.amazonaws.com/sagemaker-rl-ray-container
 
 WORKDIR /opt/ml
 
-# Roboschool dependencies
+# PyBullet dependencies
 
 RUN apt-get update && apt-get install -y \
       git cmake ffmpeg pkg-config \
