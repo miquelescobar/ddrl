@@ -40,7 +40,7 @@ pipeline to analyze its costs and viability in a production environment.
 <br> 
 
 ## Repository structure
-One can find the complete report of the project in the ```report.pdf``` file in the root directory, as well as the thesis defense slides  in the ````slides.pdf``` file.
+One can find the complete report of the project in the ```report.pdf``` file in the root directory, as well as the thesis defense slides  in the ```slides.pdf``` file.
 
 The directory structure of this reposirory is shown below. In each of the subsections, more detailed documentation about its internal structure is provided, as well as instructions on dependencies installation and reproducibility.
 
