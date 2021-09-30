@@ -14,4 +14,4 @@ module load gcc/8.3.0 cuda/10.2 cudnn/7.6.4 nccl/2.4.8 tensorrt/6.0.1 openmpi/4.
 
 echo starting
 
-python train-pybulletgym-hyp.py --name "humanoid-sac-gpu-dist64-hyp-n3" --params-file "./trainings/humanoid-sac-gpu-dist64-hyp.json" --num-samples 3
+python train-pybulletgym-hyp.py --name "humanoid-sac-gpu-dist64-hyp-n3" --params-file "./trainings/pybulletgym/humanoid-sac-gpu-dist64-hyp.json" --num-samples 3

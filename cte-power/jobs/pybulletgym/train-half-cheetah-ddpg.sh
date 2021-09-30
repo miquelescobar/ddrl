@@ -14,4 +14,4 @@ module load gcc/8.3.0 cuda/10.2 cudnn/7.6.4 nccl/2.4.8 tensorrt/6.0.1 openmpi/4.
 
 echo starting
 
-python train-pybulletgym.py --params-file "./trainings/half-cheetah-ddpg.json"
+python train-pybulletgym.py --params-file "./trainings/pybulletgym/half-cheetah-ddpg.json"

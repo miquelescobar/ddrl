@@ -1,12 +1,11 @@
 #!/bin/bash
-#SBATCH --job-name train-ant-td3
-#SBATCH -D /home/bsc31/bsc31874/ddrl/
+#SBATCH --job-name train-humanoid-sac-time
+#SBATCH -D /home/bsc31/bsc31874/ddrl/scripts/train
 #SBATCH --output /home/bsc31/bsc31874/ddrl/jobs/out/%j.out
 #SBATCH --error /home/bsc31/bsc31874/ddrl/jobs/err/%j.err
 #SBATCH --nodes 1                  
-#SBATCH -c 32  
-#SBATCH --time 24:00:00
-#SBATCH --exclusive
+#SBATCH -c 160
+#SBATCH --time 48:00:00
  
  
 module purge;
@@ -14,4 +13,4 @@ module load gcc/8.3.0 cuda/10.2 cudnn/7.6.4 nccl/2.4.8 tensorrt/6.0.1 openmpi/4.
 
 echo starting
 
-python train-pybullet.py
+python train-bullet-envs.py --params-file "./trainings/bullet-envs/humanoid-sac-time.json"

@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH --job-name train-humanoid-ppo-time-gpu
+#SBATCH --job-name train-humanoid-td3-hyp
 #SBATCH -D /home/bsc31/bsc31874/ddrl/scripts/train
 #SBATCH --output /home/bsc31/bsc31874/ddrl/jobs/out/%j.out
 #SBATCH --error /home/bsc31/bsc31874/ddrl/jobs/err/%j.err
@@ -14,4 +14,4 @@ module load gcc/8.3.0 cuda/10.2 cudnn/7.6.4 nccl/2.4.8 tensorrt/6.0.1 openmpi/4.
 
 echo starting
 
-python train-bullet-envs.py --params-file "../../trainings/bullet-envs/humanoid-ppo-time-gpu.json"
+python train-bullet-envs.py --params-file "./trainings/bullet-envs/humanoid-td3-hyp.json"
