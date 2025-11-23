@@ -1,5 +1,3 @@
-<h1 style="background-color:red;">README UNDER DEVELOPMENT</h1>
-
 <p float="left">
 <img src="https://www.upc.edu/comunicacio/ca/identitat/descarrega-arxius-grafics/fitxers-marca-principal/upc-positiu-p3005.png" height="75">
 <img src="https://www.fib.upc.edu/sites/fib/files/images/logo-fib-lletres.png" height="85">
